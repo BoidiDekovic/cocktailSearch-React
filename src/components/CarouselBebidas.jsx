@@ -14,9 +14,6 @@ const CarouselBebidas = () => {
             src={bebida.strDrinkThumb}
             alt={`Imagen de ${bebida.strDrink}`}
           />
-          <Carousel.Caption>
-            <h3>{bebida.strDrink}</h3>
-          </Carousel.Caption>
         </Carousel.Item>
       ))}
     </Carousel>
